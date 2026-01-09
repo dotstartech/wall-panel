@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ABM8G-24.000MHZ-18-D2Y-T
+D ABRACON - ABM8G-24.000MHZ-18-D2Y-T - CRYSTAL, 24MHZ, 18PF, SMD
+K
+F https://abracon.com/Resonators/ABM8G.pdf
+$ENDCMP
+#
+#End Doc Library

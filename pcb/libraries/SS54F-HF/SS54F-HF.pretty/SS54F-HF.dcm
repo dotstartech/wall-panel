@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS54F-HF
+D Schottky Diodes & Rectifiers DIODE SCHOTTKY 5A 40V SMAF
+K
+F http://www.comchiptech.com/admin/files/product/20190806174558.pdf
+$ENDCMP
+#
+#End Doc Library

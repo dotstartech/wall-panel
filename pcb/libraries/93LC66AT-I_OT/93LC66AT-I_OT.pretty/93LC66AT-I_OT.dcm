@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 93LC66AT-I_OT
+D 4K, 512 X 8 SERIAL EEPROM, IND
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21795E.pdf
+$ENDCMP
+#
+#End Doc Library

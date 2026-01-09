@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ECS-250-18-36B2-CTY-TR
+#/15476319/1048038/2.50/4/4/Crystal or Oscillator
+DEF ECS-250-18-36B2-CTY-TR Y 0 30 Y Y 1 F N
+F0 "Y" 1150 300 50 H V L CNN
+F1 "ECS-250-18-36B2-CTY-TR" 1150 200 50 H V L CNN
+F2 "ECS2501836B2CTYTR" 1150 100 50 H I L CNN
+F3 "https://www.mouser.in/datasheet/2/122/ECX_2236B2-2400583.pdf" 1150 0 50 H I L CNN
+F4 "Crystals ESR 50,FREQ 25,STABILITY +/-30ppm,TOLERANCE +/-10ppm,CL 18pF,AGING +/-2 ppm ,-30 C 85 C,100uW in typical (Max 200uW), 2.50mm x 2.00mm" 1150 -100 50 H I L CNN "Description"
+F5 "0.6" 1150 -200 50 H I L CNN "Height"
+F6 "520-250-18-36B2CTYTR" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ECS/ECS-250-18-36B2-CTY-TR?qs=aP1CjGhiNiFniXuPEM212w%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ECS" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ECS-250-18-36B2-CTY-TR" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X IN/OUT 1 0 -100 200 R 50 50 0 0 P
+X GND_1 2 1300 -100 200 L 50 50 0 0 P
+X OUT/IN 3 1300 0 200 L 50 50 0 0 P
+X GND_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,27 @@
+.DS_Store
+
+# KiCad temporary files
+*~
+*.tmp
+*.bak
+*.swp
+*-save.pro
+*-save.kicad_pcb
+*.000
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*-backups/
+*-cache.lib
+*-rescue.lib
+*-rescue.dcm
+_autosave-*
+~*.kicad_*
+*.lck
+fp-info-cache
+fp-lib-table.bak
+
+# KiCad output directories
+**/gerber/
+**/production/

@@ -1,0 +1,125 @@
+(footprint "9774030151R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7dd5a8de-3ab1-47c0-8514-0c67895369bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "9774030151R"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c65681a9-8b42-45f7-9087-b14c480e9880")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "609647dd-c17b-4b74-a709-b35ee5d85abf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "568eb244-c66b-43de-8eac-dddfd550e9d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 2.425 0)
+		(stroke
+			(width 1.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(uuid "3561e714-61b0-4722-aebb-ec60764837a8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.425 0)
+		(stroke
+			(width 1.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "66bc752c-97b4-41e4-b03f-dd2b1a85fc92")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.425 0)
+		(stroke
+			(width 1.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Paste")
+		(uuid "ba7098ef-2340-417a-9fad-93f39abec7b5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.84 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "02e9148e-e77a-438d-b81d-2330cb89b9cb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8f356547-a68e-4369-981e-47739206ad6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/9774030151R/9774030151R.3dshapes/9774030151R.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

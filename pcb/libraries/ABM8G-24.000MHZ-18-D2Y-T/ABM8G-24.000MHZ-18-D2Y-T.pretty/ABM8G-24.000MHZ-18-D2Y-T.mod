@@ -1,0 +1,48 @@
+PCBNEW-LibModule-V1  2025-08-19 16:50:34
+# encoding utf-8
+Units mm
+$INDEX
+ABM8G
+$EndINDEX
+$MODULE ABM8G
+Po 0 0 0 15 68a49d4a 00000000 ~~
+Li ABM8G
+Cd ABM8G
+Kw Crystal or Oscillator
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 0 0 1.27 1.27 0 0.254 N V 21 N "Y**"
+T1 0 0 1.27 1.27 0 0.254 N I 21 N "ABM8G"
+DS -1.6 -1.25 1.6 -1.25 0.254 24
+DS 1.6 -1.25 1.6 1.25 0.254 24
+DS 1.6 1.25 -1.6 1.25 0.254 24
+DS -1.6 1.25 -1.6 -1.25 0.254 24
+DC -1.212 1.81 -1.2875 1.81 0.254 21
+$PAD
+Po -1.1 0.85
+Sh "1" R 1.2 1.4 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 1.1 0.85
+Sh "2" R 1.2 1.4 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 1.1 -0.85
+Sh "3" R 1.2 1.4 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -1.1 -0.85
+Sh "4" R 1.2 1.4 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE ABM8G
+$EndLIBRARY

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LAN9500A-ABZJ
+D Microchip LAN9500A-ABZJ, Ethernet Controller, 100Mbit/s MII, USB, 3.3 V, 56-Pin QFN
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562338
+$ENDCMP
+#
+#End Doc Library

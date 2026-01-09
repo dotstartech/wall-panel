@@ -1,0 +1,154 @@
+(footprint "ABM8G"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ABM8G")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ed60daa7-8232-4df5-87e0-5a78222aacab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ABM8G"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "769dc411-8df3-4ee3-a8be-1f929e3955cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1908c0d2-93b4-4018-92c1-aed9610b2398")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "636db1af-b727-4745-97ab-2e4a1872c2d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.212 1.81)
+		(end -1.212 1.8855)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cd4d2990-e4d8-4b77-a725-d9cefe727ccd")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffb0befa-c343-451e-a9b1-6c0eb1f61441")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c2e3b43-2a92-4b53-a376-372d1cd0d950")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc3de298-a808-4050-a374-d2b3e0aca53e")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33e92425-c7ed-4214-9448-dd8a2b905217")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9a41c43b-284d-4a5a-9146-9e192cffe2b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 0.85 90)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9ce4daf2-004b-4de2-84b9-a34b9b461251")
+	)
+	(pad "2" smd rect
+		(at 1.1 0.85 90)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ea1f31a8-d49e-4437-b56e-eff506991c5a")
+	)
+	(pad "3" smd rect
+		(at 1.1 -0.85 90)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f4a45db6-c0a2-4347-a193-de31cc28341e")
+	)
+	(pad "4" smd rect
+		(at -1.1 -0.85 90)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "81af4249-43dc-4aa5-a02e-65a4ab9ac909")
+	)
+	(embedded_fonts no)
+	(model "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/ABM8G-24.000MHZ-18-D2Y-T/ABM8G-24.000MHZ-18-D2Y-T.shapes/ABM8G-24.000MHZ-18-D2Y-T.stp"
+		(offset
+			(xyz 0 -0.07999999701 0.009999999626)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

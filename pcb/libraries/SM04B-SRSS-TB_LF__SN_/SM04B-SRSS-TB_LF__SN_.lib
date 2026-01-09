@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SM04B-SRSS-TB(LF)(SN)
+#
+DEF SM04B-SRSS-TB(LF)(SN) J 0 40 N Y 1 L N
+F0 "J" -200 321 50 H V L BNN
+F1 "SM04B-SRSS-TB(LF)(SN)" -200 -471 50 H V L BNN
+F2 "JST_SM04B-SRSS-TB(LF)(SN)" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Manufacturer recommendations" 0 0 50 H I L BNN "STANDARD"
+F5 "JST" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -200 -400 200 300 0 0 10 f
+X 1 1 -300 200 100 R 40 40 0 0 P 
+X 2 2 -300 100 100 R 40 40 0 0 P 
+X 3 3 -300 0 100 R 40 40 0 0 P 
+X 4 4 -300 -100 100 R 40 40 0 0 P 
+X SHIELD S1 -300 -300 100 R 40 40 0 0 P 
+X SHIELD S2 -300 -300 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

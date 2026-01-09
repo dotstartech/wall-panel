@@ -1,0 +1,225 @@
+(footprint "ECS2501836B2CTYTR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ECS-250-18-36B2-CTY-TR-1")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "3fbc8bc7-ceda-485c-b8f3-b6a88db1ef19")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ECS2501836B2CTYTR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4d544c55-8a5b-425b-93ea-5d20ddc78246")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb6bd6a7-5587-4638-afd2-101db1371896")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "541455c8-f948-4ca4-a177-90e664111eab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.85 1.5)
+		(end -0.85 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7df7c458-b9ad-4022-bfe4-04d98ebd9b65")
+	)
+	(fp_line
+		(start -0.85 1.6)
+		(end -0.85 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7e7b53f-8fd0-4645-bd0c-5101477ebd10")
+	)
+	(fp_arc
+		(start -0.85 1.5)
+		(mid -0.8 1.55)
+		(end -0.85 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94c1feed-cf3f-415f-a195-5189c0a9b328")
+	)
+	(fp_arc
+		(start -0.85 1.6)
+		(mid -0.9 1.55)
+		(end -0.85 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ebc1c5f-2a6d-4e78-87f5-8ef5a7310b65")
+	)
+	(fp_line
+		(start -2.45 -2.15)
+		(end 2.45 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f275085-468a-43fa-b6fd-3534ddc0b99b")
+	)
+	(fp_line
+		(start -2.45 2.15)
+		(end -2.45 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33537d94-f506-4006-b2da-b3485744121a")
+	)
+	(fp_line
+		(start 2.45 -2.15)
+		(end 2.45 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd37eef6-e5c3-400c-9bea-928243163ae6")
+	)
+	(fp_line
+		(start 2.45 2.15)
+		(end -2.45 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ee351a7-6e58-4f90-89d0-acbe5ea406b6")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "667d2bcc-ef12-4cc8-8704-b4e19ed7728f")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e5945dd-22e0-4ecc-923c-785a1c3e3692")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8950dd5-db63-4046-a4db-dd67dbeb84c5")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a9eb229-9561-4cae-98d8-aa1e9b50124f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0c45c6b9-5270-4195-98d4-fe9470d1d302")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fdbd4696-99f1-4f92-9d1e-87fa504dae71")
+	)
+	(pad "2" smd rect
+		(at 0.85 0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fde49b2d-ced9-4446-b3f1-887c650a23fc")
+	)
+	(pad "3" smd rect
+		(at 0.85 -0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c6d378c8-6850-4982-8f06-8b83482d32ae")
+	)
+	(pad "4" smd rect
+		(at -0.85 -0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4a6f61fd-5c5f-4677-9aab-bf2ccd13cefd")
+	)
+	(embedded_fonts no)
+	(model "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/ECS-250-18-36B2-CTY-TR/ECS-250-18-36B2-CTY-TR.shapes/ECS-250-18-36B2-CTY-TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# USB4105-GF-A
+#
+DEF USB4105-GF-A J 0 40 Y Y 1 L N
+F0 "J" -600 550 50 H V L BNN
+F1 "USB4105-GF-A" -600 -500 50 H V L BNN
+F2 "GCT_USB4105-GF-A" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Unavailable" 0 0 50 H I L BNN "AVAILABILITY"
+F5 "USB - C _Type - C_ USB 2.0 Receptacle Connector 24 Position Surface Mount, Right Angle; Through Hole" 0 0 50 H I L BNN "DESCRIPTION"
+F6 "None" 0 0 50 H I L BNN "PRICE"
+F7 "USB4105" 0 0 50 H I L BNN "MP"
+F8 "Global Connector Technology" 0 0 50 H I L BNN "MF"
+F9 "Package Analog Devices" 0 0 50 H I L BNN "PACKAGE"
+DRAW
+S -600 -400 600 500 0 0 10 f
+X CC1 A5 -800 200 200 R 40 40 0 0 B 
+X DP1 A6 -800 100 200 R 40 40 0 0 B 
+X DN1 A7 -800 0 200 R 40 40 0 0 B 
+X SBU1 A8 -800 -100 200 R 40 40 0 0 B 
+X VBUS A4/B9 800 400 200 L 40 40 0 0 W 
+X VBUS B4/A9 800 400 200 L 40 40 0 0 W 
+X CC2 B5 800 200 200 L 40 40 0 0 B 
+X DP2 B6 800 100 200 L 40 40 0 0 B 
+X DN2 B7 800 0 200 L 40 40 0 0 B 
+X SBU2 B8 800 -100 200 L 40 40 0 0 B 
+X GND A1/B12 800 -300 200 L 40 40 0 0 W 
+X GND B1/A12 800 -300 200 L 40 40 0 0 W 
+X GND G1 800 -300 200 L 40 40 0 0 W 
+X GND G2 800 -300 200 L 40 40 0 0 W 
+X GND G3 800 -300 200 L 40 40 0 0 W 
+X GND G4 800 -300 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

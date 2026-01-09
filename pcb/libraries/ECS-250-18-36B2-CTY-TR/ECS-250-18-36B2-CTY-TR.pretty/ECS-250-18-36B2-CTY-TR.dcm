@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-250-18-36B2-CTY-TR
+D Crystals ESR 50,FREQ 25,STABILITY +/-30ppm,TOLERANCE +/-10ppm,CL 18pF,AGING +/-2 ppm ,-30 C 85 C,100uW in typical (Max 200uW), 2.50mm x 2.00mm
+K
+F https://www.mouser.in/datasheet/2/122/ECX_2236B2-2400583.pdf
+$ENDCMP
+#
+#End Doc Library

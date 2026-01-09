@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/CM4IO.kicad_sym")(options "")(descr ""))
+  (lib (name "F31L-1A7H1-11030")(type "KiCad")(uri "${KIPRJMOD}/../libraries/F31L-1A7H1-11030/F31L-1A7H1-11030.pretty/F31L-1A7H1-11030.kicad_sym")(options "")(descr ""))
+  (lib (name "ABM8G-24_000MHZ-18-D2Y-T")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ABM8G-24.000MHZ-18-D2Y-T/ABM8G-24.000MHZ-18-D2Y-T.pretty/ABM8G-24_000MHZ-18-D2Y-T.kicad_sym")(options "")(descr ""))
+  (lib (name "SKSLLBE010")(type "KiCad")(uri "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/SKSLLBE010/SKSLLBE010/SKSLLBE010.kicad_sym")(options "")(descr ""))
+  (lib (name "218-4LPSTRF")(type "KiCad")(uri "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/218-4LPSTRF/218-4LPSTRF.pretty/218-4LPSTRF.kicad_sym")(options "")(descr ""))
+)

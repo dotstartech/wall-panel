@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/../libraries/CM4IO/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "F31L-1A7H1-11030")(type "KiCad")(uri "${KIPRJMOD}/../libraries/F31L-1A7H1-11030/F31L-1A7H1-11030.pretty")(options "")(descr ""))
+  (lib (name "CONN02_533984002_MOL")(type "KiCad")(uri "${KIPRJMOD}/../libraries/CONN02_533984002_MOL/CONN02_533984002_MOL.pretty")(options "")(descr ""))
+  (lib (name "ABM8G-24.000MHZ-18-D2Y-T")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ABM8G-24.000MHZ-18-D2Y-T/ABM8G-24.000MHZ-18-D2Y-T.pretty")(options "")(descr ""))
+  (lib (name "PM254-2-20-WS-8.5")(type "KiCad")(uri "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/PM254-2-20-WS-8.5/PM254-2-20-WS-8.5.pretty")(options "")(descr ""))
+  (lib (name "9774030151R")(type "KiCad")(uri "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/9774030151R/9774030151R.pretty")(options "")(descr ""))
+  (lib (name "SKSLLBE010")(type "KiCad")(uri "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/SKSLLBE010/SKSLLBE010")(options "")(descr ""))
+  (lib (name "218-4LPSTRF")(type "KiCad")(uri "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/218-4LPSTRF/218-4LPSTRF.pretty")(options "")(descr ""))
+)
