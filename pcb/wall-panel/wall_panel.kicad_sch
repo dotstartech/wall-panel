@@ -5,11 +5,12 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A3")
 	(title_block
-		(title "Wall panel")
-		(date "2026-01-09")
-		(rev "1")
-		(company "Grigorii Merkushev (aka brushknight)")
-		(comment 1 "brushknight.com")
+		(title "Wall Panel")
+		(date "2026-02-02")
+		(rev "v0.3")
+		(company "dotstar.tech")
+		(comment 1 "designed by Grigorii Merkushev (aka brushknight)")
+		(comment 2 "brushknight.com")
 	)
 	(lib_symbols)
 	(text "Connectors\n-------\nFAN\nBattery"
@@ -150,6 +151,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 87.63) (xy 203.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4258fb-ea3d-41f1-9931-e68d0ecd47af")
+	)
+	(wire
+		(pts
 			(xy 137.16 101.6) (xy 137.16 106.68)
 		)
 		(stroke
@@ -197,6 +208,16 @@
 			(type solid)
 		)
 		(uuid "37e4dc66-4492-4061-908d-7213940a2ec3")
+	)
+	(wire
+		(pts
+			(xy 203.2 46.99) (xy 218.44 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3acb10a0-c34c-4666-ad03-2a17169bb882")
 	)
 	(wire
 		(pts
@@ -327,6 +348,16 @@
 			(type solid)
 		)
 		(uuid "825c70b0-4860-42b7-97dc-86bfa46e06fd")
+	)
+	(wire
+		(pts
+			(xy 203.2 87.63) (xy 203.2 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d01daf-89d3-4595-87d4-06cc392da210")
 	)
 	(wire
 		(pts
@@ -1374,6 +1405,16 @@
 				(justify right)
 			)
 		)
+		(pin "BACKLIGHT_POWER" input
+			(at 168.91 87.63 0)
+			(uuid "4274cb0d-1151-482d-8866-5c505c004a49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -1715,6 +1756,16 @@
 		(pin "VBUS" input
 			(at 218.44 52.07 180)
 			(uuid "5292ec18-fa10-48a6-93d1-1150c292d823")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BACKLIGHT_POWER" output
+			(at 218.44 46.99 180)
+			(uuid "c9c1b9a8-3b30-4b9d-b852-20c73089f42c")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,11 +5,12 @@
 	(uuid "92d938cc-f8b1-437d-8914-3d97a0938f67")
 	(paper "A3")
 	(title_block
-		(title "Wall panel")
-		(date "2026-01-09")
-		(rev "1")
-		(company "Grigorii Merkushev (aka brushknight)")
-		(comment 1 "brushknight.com")
+		(title "Wall Panel")
+		(date "2026-02-02")
+		(rev "v0.3")
+		(company "dotstar.tech")
+		(comment 1 "designed by Grigorii Merkushev (aka brushknight)")
+		(comment 2 "brushknight.com")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
@@ -1100,6 +1101,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 45.72) (xy 66.04 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28136b82-aec5-4554-a270-3a5ba3bae259")
+	)
+	(wire
+		(pts
 			(xy 57.15 63.5) (xy 66.04 63.5)
 		)
 		(stroke
@@ -1107,16 +1118,6 @@
 			(type default)
 		)
 		(uuid "2b05cbfe-ff2b-4bfd-9c40-80f5dada0188")
-	)
-	(wire
-		(pts
-			(xy 66.04 49.53) (xy 66.04 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cf64e2f-be7f-4063-98ca-50ca01e7868d")
 	)
 	(polyline
 		(pts
@@ -1358,7 +1359,7 @@
 			(uuid "0438e6f0-a581-4f5a-9e49-913a6fa9f943")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
 					(reference "#PWR070")
 					(unit 1)
@@ -1424,7 +1425,7 @@
 			(uuid "3058888a-dc39-44a2-a7ed-c37670cb0cfa")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
 					(reference "#PWR069")
 					(unit 1)
@@ -1564,7 +1565,7 @@
 			(uuid "a9cd8018-5cb9-480d-b51c-20ffc376f247")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
 					(reference "C17")
 					(unit 1)
@@ -1628,7 +1629,7 @@
 			(uuid "b00722d5-2941-4508-9248-1058ebf4feaf")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
 					(reference "#PWR025")
 					(unit 1)
@@ -1692,7 +1693,7 @@
 			(uuid "78eef1d4-57a0-41e6-9a55-4c35d5666fbe")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
 					(reference "#PWR024")
 					(unit 1)
@@ -1832,16 +1833,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 71.12 49.53 0)
+		(at 71.12 52.07 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6d453e0-dd82-486c-956b-47f1ff078648")
 		(property "Reference" "J4"
-			(at 72.39 49.5299 0)
+			(at 72.39 52.0701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +1851,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 72.39 52.0699 0)
+			(at 72.39 49.5301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +1860,7 @@
 			)
 		)
 		(property "Footprint" "CONN02_533984002_MOL:CONN02_533984002_MOL"
-			(at 71.12 49.53 0)
+			(at 71.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +1869,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/533984002?display=pdf"
-			(at 71.12 49.53 0)
+			(at 71.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +1878,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 71.12 49.53 0)
+			(at 71.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,7 +1887,7 @@
 			)
 		)
 		(property "URL" "https://eu.mouser.com/ProductDetail/Molex/53398-4002?qs=iLbezkQI%252BsjNR44XnvA9PQ%3D%3D&srsltid=AfmBOorTWWap8qiFVUOD5P7LnDBaNxt2k6tC8Z0wXPSvf5gvXqJPTJfT"
-			(at 71.12 49.53 0)
+			(at 71.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +1896,7 @@
 			)
 		)
 		(property "LCSC" "C16076276"
-			(at 71.12 49.53 0)
+			(at 71.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1905,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 71.12 49.53 0)
+			(at 71.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

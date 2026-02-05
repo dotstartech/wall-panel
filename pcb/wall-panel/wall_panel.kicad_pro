@@ -915,11 +915,11 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "CM4IO.net",
+      "netlist": "wall_panel.net",
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "CM4IOv5.step",
+      "step": "wall_panel.step",
       "svg": "",
       "vmrl": "",
       "vrml": ""

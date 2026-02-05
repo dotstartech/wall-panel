@@ -5,11 +5,12 @@
 	(uuid "c03d11a1-370c-4161-ad51-f3ee0a75a6ef")
 	(paper "A3")
 	(title_block
-		(title "Wall panel")
-		(date "2026-01-09")
-		(rev "1")
-		(company "Grigorii Merkushev (aka brushknight)")
-		(comment 1 "brushknight.com")
+		(title "Wall Panel")
+		(date "2026-02-02")
+		(rev "v0.3")
+		(company "dotstar.tech")
+		(comment 1 "designed by Grigorii Merkushev (aka brushknight)")
+		(comment 2 "brushknight.com")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
@@ -280,7 +281,7 @@
 			(uuid "8fc35c52-50db-44d6-ad7f-4a7f4872dc94")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2a110465-dd07-4872-9dc5-b05104e43751"
 					(reference "H4")
 					(unit 1)
@@ -356,7 +357,7 @@
 			(uuid "8abc78d6-ff95-4663-a2d6-30bc158cd5ae")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2a110465-dd07-4872-9dc5-b05104e43751"
 					(reference "H2")
 					(unit 1)
@@ -432,7 +433,7 @@
 			(uuid "959cf99f-aabd-433f-b4d3-4549186dfe3a")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2a110465-dd07-4872-9dc5-b05104e43751"
 					(reference "H3")
 					(unit 1)

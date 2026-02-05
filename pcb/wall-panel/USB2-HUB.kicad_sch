@@ -5,11 +5,12 @@
 	(uuid "40976bf0-19de-460f-ad64-224d4f51e16b")
 	(paper "A3")
 	(title_block
-		(title "Wall panel")
-		(date "2026-01-09")
-		(rev "1")
-		(company "Grigorii Merkushev (aka brushknight)")
-		(comment 1 "brushknight.com")
+		(title "Wall Panel")
+		(date "2026-02-02")
+		(rev "v0.3")
+		(company "dotstar.tech")
+		(comment 1 "designed by Grigorii Merkushev (aka brushknight)")
+		(comment 2 "brushknight.com")
 	)
 	(lib_symbols
 		(symbol "ABM8G-24_000MHZ-18-D2Y-T:ABM8G-24.000MHZ-18-D2Y-T"
@@ -11319,7 +11320,7 @@
 			(uuid "b1823a06-1320-491a-9cfa-304cf78495f6")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e072e02"
 					(reference "R26")
 					(unit 1)
@@ -11383,7 +11384,7 @@
 			(uuid "c1974fa1-729a-47b1-811b-bb3838ac6354")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e072e02"
 					(reference "#PWR014")
 					(unit 1)
@@ -11468,7 +11469,7 @@
 			(uuid "6cb53779-d3ef-4d81-b04f-ba845334f58a")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e072e02"
 					(reference "R9")
 					(unit 1)
@@ -11553,7 +11554,7 @@
 			(uuid "21b78f5d-3485-498d-8e30-9e39168da485")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e072e02"
 					(reference "R25")
 					(unit 1)
@@ -11638,7 +11639,7 @@
 			(uuid "aaf44f14-6846-4ccd-8fb4-bd73b0957380")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e072e02"
 					(reference "R8")
 					(unit 1)
@@ -11704,7 +11705,7 @@
 			(uuid "0ab8e916-34c0-4ea1-ab09-770098f47b96")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e072e02"
 					(reference "#PWR082")
 					(unit 1)
@@ -12258,7 +12259,7 @@
 			(uuid "09ff1d99-1e65-4df2-8d6c-2c3526001a7d")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e072e02"
 					(reference "J17")
 					(unit 1)
@@ -12324,7 +12325,7 @@
 			(uuid "433afe6c-5f03-4f2a-95b7-7b1ba95661dd")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e072e02"
 					(reference "#PWR083")
 					(unit 1)
@@ -12451,7 +12452,7 @@
 			(uuid "a3d1c542-a6d7-467a-9787-393c9f48f1da")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e072e02"
 					(reference "J1")
 					(unit 1)
@@ -12517,7 +12518,7 @@
 			(uuid "bbf7a2aa-02a3-4d34-b00d-ca7387e6a174")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e072e02"
 					(reference "#PWR081")
 					(unit 1)
@@ -12581,7 +12582,7 @@
 			(uuid "e74f030d-a7c5-41d2-8722-e0a876ffef46")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e072e02"
 					(reference "#PWR03")
 					(unit 1)
@@ -12645,7 +12646,7 @@
 			(uuid "85f7c362-2dc3-4fec-a1eb-b93c10d3159e")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e072e02"
 					(reference "#PWR061")
 					(unit 1)
@@ -12730,7 +12731,7 @@
 			(uuid "971015c4-d65f-4ee2-a1cf-464ea2511627")
 		)
 		(instances
-			(project "CM4IOv5"
+			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e072e02"
 					(reference "R12")
 					(unit 1)
