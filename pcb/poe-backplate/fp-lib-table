@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LAN7800_Y9X")(type "KiCad")(uri "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/LAN7800_Y9X/LAN7800_Y9X.pretty")(options "")(descr ""))
+  (lib (name "ECS-250-18-36B2-CTY-TR")(type "KiCad")(uri "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/ECS-250-18-36B2-CTY-TR/ECS-250-18-36B2-CTY-TR.pretty")(options "")(descr ""))
+  (lib (name "93LC66AT-I_OT")(type "KiCad")(uri "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/93LC66AT-I_OT/93LC66AT-I_OT.pretty")(options "")(descr ""))
+  (lib (name "HY931147C")(type "KiCad")(uri "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/HY931147C/HY931147C.pretty")(options "")(descr ""))
+  (lib (name "LAN9500A-ABZJ")(type "KiCad")(uri "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/LAN9500A-ABZJ/LAN9500A-ABZJ.pretty")(options "")(descr ""))
+  (lib (name "SS54F-HF")(type "KiCad")(uri "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/SS54F-HF/SS54F-HF.pretty")(options "")(descr ""))
+  (lib (name "AG5405")(type "KiCad")(uri "/Users/brushknight/dev/brushknight/nfc-terminal/pcb/libraries/AG5405/AG5405.pretty")(options "")(descr ""))
+)

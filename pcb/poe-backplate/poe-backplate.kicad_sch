@@ -1,0 +1,446 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2ade45ab-4dd8-49f8-83c6-d4bf780bc751")
+	(paper "A3")
+	(title_block
+		(title "PoE Backplate")
+		(date "2026-02-01")
+		(rev "v0.2")
+		(company "dotstar.tech")
+		(comment 1 "designed byGrigorii Merkushev (aka brushknight)")
+		(comment 2 "brushknight.com")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 86.36 85.09) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c5de04-4c17-4d8f-a5f2-ae58088921df")
+	)
+	(wire
+		(pts
+			(xy 101.6 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd3bdc0-4ce1-440e-8d33-e57f9de92d6f")
+	)
+	(wire
+		(pts
+			(xy 129.54 44.45) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc14547-099f-45cf-a0eb-4144003f5daa")
+	)
+	(wire
+		(pts
+			(xy 101.6 68.58) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc9b8f9-1c28-449e-a414-b2217a0a32cb")
+	)
+	(wire
+		(pts
+			(xy 83.82 87.63) (xy 128.27 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de0feab-7874-46d3-89ba-f46219057f54")
+	)
+	(wire
+		(pts
+			(xy 133.35 43.18) (xy 133.35 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7989865c-a31e-4ad6-9af0-3fe3774e4e15")
+	)
+	(wire
+		(pts
+			(xy 82.55 43.18) (xy 133.35 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f18e498-d9aa-4583-9c2c-ed0783ab2062")
+	)
+	(wire
+		(pts
+			(xy 101.6 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81454bf1-c206-4534-9616-5ad4ac53ba77")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 128.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853ddd7e-6c94-48f2-9fd5-ea25d6931112")
+	)
+	(wire
+		(pts
+			(xy 125.73 85.09) (xy 125.73 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d762e71-188a-41bb-99d2-cd33a67fd441")
+	)
+	(wire
+		(pts
+			(xy 83.82 76.2) (xy 83.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b2a361-c55d-4c61-822e-40d389a51ecb")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9b6dd7-2be9-43c4-bfb5-3fede657aaef")
+	)
+	(wire
+		(pts
+			(xy 87.63 50.8) (xy 87.63 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba67a18c-aca5-458f-b09c-59d389627b26")
+	)
+	(wire
+		(pts
+			(xy 86.36 76.2) (xy 86.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53c4e8b-ad65-4b3a-b145-857b0d28d751")
+	)
+	(wire
+		(pts
+			(xy 87.63 44.45) (xy 129.54 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f033449a-8021-48d6-9481-7163665deeb2")
+	)
+	(wire
+		(pts
+			(xy 82.55 50.8) (xy 82.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f954df8a-65c0-4a2b-b1da-999de9f69fa8")
+	)
+	(sheet
+		(at 114.3 50.8)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "847a6f3a-a079-4ba5-8b6e-89592cee816d")
+		(property "Sheetname" "PoE"
+			(at 114.3 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "poe.kicad_sch"
+			(at 114.3 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TXN" bidirectional
+			(at 114.3 60.96 180)
+			(uuid "1980b7e0-26a2-447a-bddd-758334f68e09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXP" bidirectional
+			(at 114.3 71.12 180)
+			(uuid "1a0372c9-c412-44e6-a766-6fe5bf4f8473")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXP" bidirectional
+			(at 114.3 63.5 180)
+			(uuid "dbcc549b-f672-48b4-9344-b9240b04adb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXN" bidirectional
+			(at 114.3 68.58 180)
+			(uuid "a0906e05-8e72-47e0-977c-66e7b3041860")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH1_LEDG" output
+			(at 125.73 76.2 270)
+			(uuid "9085ddbb-d636-451d-b02f-99b1660fd092")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH1_LEDY" output
+			(at 128.27 76.2 270)
+			(uuid "0504c8ec-c4cc-4744-87b7-0633cf33a8c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POE_5V" output
+			(at 129.54 50.8 90)
+			(uuid "52b3e746-18ad-4f50-85b9-624577d40cee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD33A" bidirectional
+			(at 133.35 50.8 90)
+			(uuid "0ae773c9-520d-4955-8a64-075edc29ac73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "poe-backplate"
+				(path "/2ade45ab-4dd8-49f8-83c6-d4bf780bc751"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 50.8)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b59b4b7-3350-4770-b973-cb3c36e5ed35")
+		(property "Sheetname" "USB to Ethernet"
+			(at 63.5 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_to_ethernet.kicad_sch"
+			(at 63.5 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ETH1_LEDG" input
+			(at 86.36 76.2 270)
+			(uuid "76e33f9c-2630-46ba-97da-81dd25254f16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH1_LEDY" input
+			(at 83.82 76.2 270)
+			(uuid "a4de5c37-9446-4c22-9194-030468b06ae3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXN" bidirectional
+			(at 101.6 60.96 0)
+			(uuid "86dddfc9-ecff-4e27-bdd1-8801056243f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBDP" bidirectional
+			(at 101.6 53.34 0)
+			(uuid "708c0dee-c840-4f6c-9f26-dc6632bcabb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXP" bidirectional
+			(at 101.6 63.5 0)
+			(uuid "41a13363-cbae-43fb-8f98-bec21d1d3db4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXN" bidirectional
+			(at 101.6 68.58 0)
+			(uuid "b7557155-1950-4fd0-8c98-2deb4c556d9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXP" bidirectional
+			(at 101.6 71.12 0)
+			(uuid "1b7a7b10-0da1-4917-93d8-dd9df0d993c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBDM" bidirectional
+			(at 101.6 55.88 0)
+			(uuid "616dfbc7-75da-44c9-be39-bc3589f11123")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD33A" bidirectional
+			(at 82.55 50.8 90)
+			(uuid "807e6408-b339-4fe2-93f0-a215250559c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POE_5V" input
+			(at 87.63 50.8 90)
+			(uuid "2c7f152f-b456-455f-831c-da1164910a56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "poe-backplate"
+				(path "/2ade45ab-4dd8-49f8-83c6-d4bf780bc751"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
