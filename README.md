@@ -5,7 +5,7 @@ Wall Panel is a 4-inch wall-mounted touch display panel powered by Raspberry Pi 
 ![Product photo](./docs/images/product_photo.jpg)
 
 ## Display
-We use this [display](https://www.alibaba.com/product-detail/Square-4-Inch-IPS-LCD-Screen_1601124668163.html), but touch variant. It is 4 lane MIPI with i2c touch controller. 
+We use this [display](https://www.alibaba.com/product-detail/Square-4-Inch-IPS-LCD-Screen_1601268288719.html), but touch variant. It is 4 lane MIPI with i2c touch controller. 
 - Display driver: ST7703
 - Touch driver: FT6336U
 
