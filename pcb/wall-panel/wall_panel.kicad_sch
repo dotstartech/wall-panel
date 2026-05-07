@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Wall Panel")
-		(date "2026-02-02")
-		(rev "v0.3")
+		(date "2026-02-25")
+		(rev "v0.3.1")
 		(company "dotstar.tech")
 		(comment 1 "designed by Grigorii Merkushev (aka brushknight)")
 		(comment 2 "brushknight.com")
@@ -251,6 +251,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 128.27) (xy 180.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a2d9bd-987f-49bb-b992-2fd076dcf342")
+	)
+	(wire
+		(pts
 			(xy 105.41 110.49) (xy 140.97 110.49)
 		)
 		(stroke
@@ -371,6 +381,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 128.27) (xy 180.34 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fd835a-c5de-4136-9eeb-a52fe6d3b1a4")
+	)
+	(wire
+		(pts
 			(xy 105.41 106.68) (xy 137.16 106.68)
 		)
 		(stroke
@@ -438,6 +458,16 @@
 			(type solid)
 		)
 		(uuid "b603d26a-e034-42fb-8327-b60c5bf9cdd2")
+	)
+	(wire
+		(pts
+			(xy 180.34 90.17) (xy 168.91 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7bddf54-3af8-48dd-952f-2e927c5766e0")
 	)
 	(wire
 		(pts
@@ -1103,6 +1133,16 @@
 				(justify right)
 			)
 		)
+		(pin "DISPLAY_PWM" output
+			(at 168.91 128.27 0)
+			(uuid "b0dae3e8-80c6-483c-a854-554ae6b6c2ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -1408,6 +1448,16 @@
 		(pin "BACKLIGHT_POWER" input
 			(at 168.91 87.63 0)
 			(uuid "4274cb0d-1151-482d-8866-5c505c004a49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISPLAY_PWM" input
+			(at 168.91 90.17 0)
+			(uuid "70a609c0-f56b-43ad-ad03-2bf298fa2fe8")
 			(effects
 				(font
 					(size 1.27 1.27)

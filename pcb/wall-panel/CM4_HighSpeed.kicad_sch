@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Wall Panel")
-		(date "2026-02-02")
-		(rev "v0.3")
+		(date "2026-02-25")
+		(rev "v0.3.1")
 		(company "dotstar.tech")
 		(comment 1 "designed by Grigorii Merkushev (aka brushknight)")
 		(comment 2 "brushknight.com")
@@ -10539,6 +10539,28 @@
 			(justify left)
 		)
 		(uuid "5587947b-456f-4904-afe9-e260bcc62665")
+	)
+	(hierarchical_label "DISPLAY_PWM"
+		(shape input)
+		(at 180.34 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f100472-26e9-43d5-a3f3-028ccc0808af")
+	)
+	(hierarchical_label "DISPLAY_T"
+		(shape input)
+		(at 180.34 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69f0adcb-5be0-4935-8014-f7b734568681")
 	)
 	(hierarchical_label "USBOTG_ID"
 		(shape input)
