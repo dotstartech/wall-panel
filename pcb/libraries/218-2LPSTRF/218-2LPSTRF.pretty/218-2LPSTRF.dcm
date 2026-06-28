@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 218-2LPSTRF
+D SWITCH SLIDE DIP SPST 25MA 24V
+K
+F https://www.ctscorp.com/wp-content/uploads/218.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.4,
+          "width": 0.3
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.1
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -137,7 +137,7 @@
         "max_error": 0.005,
         "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.01,
+        "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
@@ -261,7 +261,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v0.3.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -995,6 +995,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -1059,12 +1065,6 @@
           "label": "JLCPCB Rotation Offset",
           "name": "JLCPCB Rotation Offset",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
         },
         {
           "group_by": false,
@@ -1223,7 +1223,7 @@
       {
         "filename": "wall_panel.kicad_sch",
         "name": "wall_panel",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
     "used_designators": "",
@@ -1232,7 +1232,7 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "Root"
+      "wall_panel"
     ],
     [
       "00000000-0000-0000-0000-00005e072e02",

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A3")
 	(title_block
@@ -111,6 +111,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 128.27) (xy 132.08 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1359b71f-2d6b-4f73-8b9d-a76083b57fc5")
+	)
+	(wire
+		(pts
 			(xy 168.91 143.51) (xy 185.42 143.51)
 		)
 		(stroke
@@ -128,6 +138,16 @@
 			(type default)
 		)
 		(uuid "16665491-51ff-458f-b963-7f718ae1e0d7")
+	)
+	(wire
+		(pts
+			(xy 129.54 125.73) (xy 129.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8e7acd-4d1f-4d3a-988b-cf110b0d9aa7")
 	)
 	(wire
 		(pts
@@ -201,6 +221,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 50.8) (xy 110.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df2668a-1d28-432d-b2fa-6639f412b1eb")
+	)
+	(wire
+		(pts
 			(xy 147.32 101.6) (xy 147.32 116.84)
 		)
 		(stroke
@@ -218,6 +248,16 @@
 			(type default)
 		)
 		(uuid "3acb10a0-c34c-4666-ad03-2a17169bb882")
+	)
+	(wire
+		(pts
+			(xy 105.41 63.5) (xy 115.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4178f380-d78c-4911-a4ad-dd4af9f61aa7")
 	)
 	(wire
 		(pts
@@ -248,6 +288,46 @@
 			(type solid)
 		)
 		(uuid "483f60da-14d7-4f88-8d01-3f9f30784c70")
+	)
+	(wire
+		(pts
+			(xy 115.57 63.5) (xy 115.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48de70e6-461d-4a14-8a7c-ac3275374097")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 128.27 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54763eae-1bc3-4293-a80c-75e436d0a7fa")
+	)
+	(wire
+		(pts
+			(xy 110.49 123.19) (xy 132.08 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a38512e-6b13-490e-9a39-39ff870a2ac5")
+	)
+	(wire
+		(pts
+			(xy 110.49 50.8) (xy 110.49 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d6bc74-db68-4705-ad0a-fd78a29389c2")
 	)
 	(wire
 		(pts
@@ -358,6 +438,16 @@
 			(type solid)
 		)
 		(uuid "825c70b0-4860-42b7-97dc-86bfa46e06fd")
+	)
+	(wire
+		(pts
+			(xy 115.57 87.63) (xy 128.27 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835308f2-d3d0-4bc8-b092-630c135da34f")
 	)
 	(wire
 		(pts
@@ -511,6 +601,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 86.36) (xy 116.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdef8cbe-4c08-4084-8729-985598a35ce9")
+	)
+	(wire
+		(pts
+			(xy 132.08 125.73) (xy 129.54 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0019894-5759-4a4b-baa6-615ede309567")
+	)
+	(wire
+		(pts
 			(xy 132.08 143.51) (xy 57.15 143.51)
 		)
 		(stroke
@@ -631,6 +741,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 86.36) (xy 116.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef05c651-e5c8-4d4e-a198-43126ae79c24")
+	)
+	(wire
+		(pts
 			(xy 105.41 66.04) (xy 113.03 66.04)
 		)
 		(stroke
@@ -728,6 +848,16 @@
 			(type default)
 		)
 		(uuid "fc79135b-517a-4996-9bf0-f1069b1a0013")
+	)
+	(wire
+		(pts
+			(xy 116.84 60.96) (xy 105.41 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe549bab-c3a6-4881-b6eb-6a2994dea202")
 	)
 	(wire
 		(pts
@@ -902,11 +1032,13 @@
 			(color 132 0 132 1)
 		)
 		(fill
-			(color 255 255 255 0.0000)
+			(color 255 255 255 0)
 		)
 		(uuid "00000000-0000-0000-0000-00005cff706a")
 		(property "Sheetname" "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
 			(at 132.08 168.148 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -916,6 +1048,8 @@
 		)
 		(property "Sheetfile" "CM4_GPIO.kicad_sch"
 			(at 132.08 169.418 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1063,7 +1197,7 @@
 				(justify left)
 			)
 		)
-		(pin "OTG_5V" input
+		(pin "VBUS_IN" input
 			(at 132.08 158.75 180)
 			(uuid "cd9f0557-3611-41e2-9f75-00f18a899345")
 			(effects
@@ -1143,6 +1277,36 @@
 				(justify right)
 			)
 		)
+		(pin "USBD_POGO_N" bidirectional
+			(at 132.08 128.27 180)
+			(uuid "40f2759e-4712-43af-bf65-23f00fe00903")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBD_POGO_P" bidirectional
+			(at 132.08 125.73 180)
+			(uuid "3f1ef801-0a92-447f-a433-637f722223f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_OTG_SWITCH" bidirectional
+			(at 132.08 123.19 180)
+			(uuid "6c64485f-b3e7-4d52-a0d3-d2be67dad55f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -1164,11 +1328,13 @@
 			(color 132 0 132 1)
 		)
 		(fill
-			(color 255 255 255 0.0000)
+			(color 255 255 255 0)
 		)
 		(uuid "00000000-0000-0000-0000-00005cff70b1")
 		(property "Sheetname" "CM4_HighSpeed"
 			(at 132.08 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,6 +1344,8 @@
 		)
 		(property "Sheetfile" "CM4_HighSpeed.kicad_sch"
 			(at 132.08 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,11 +1654,13 @@
 			(color 132 0 132 1)
 		)
 		(fill
-			(color 255 255 255 0.0000)
+			(color 255 255 255 0)
 		)
 		(uuid "00000000-0000-0000-0000-00005e072e02")
 		(property "Sheetname" "USB2-HUB"
 			(at 81.28 39.2425 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,6 +1670,8 @@
 		)
 		(property "Sheetfile" "USB2-HUB.kicad_sch"
 			(at 81.026 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,7 +1759,7 @@
 				(justify left)
 			)
 		)
-		(pin "OTG_5V" output
+		(pin "VBUS_IN" output
 			(at 81.28 60.96 180)
 			(uuid "d92b813b-9acd-4e2f-be39-1e2f7fccd8df")
 			(effects
@@ -1617,6 +1789,36 @@
 				(justify left)
 			)
 		)
+		(pin "USBD_POGO_P" bidirectional
+			(at 105.41 60.96 0)
+			(uuid "b53c5060-4322-4402-9e3d-e8ef916dba3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBD_POGO_N" bidirectional
+			(at 105.41 63.5 0)
+			(uuid "1ed870a2-6348-42a0-8524-cdb62d724a0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_OTG_SWITCH" bidirectional
+			(at 105.41 50.8 0)
+			(uuid "ed565145-64f1-4e1d-9c81-0e9971831cba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "wall_panel"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -1638,11 +1840,13 @@
 			(color 132 0 132 1)
 		)
 		(fill
-			(color 255 255 255 0.0000)
+			(color 255 255 255 0)
 		)
 		(uuid "00000000-0000-0000-0000-00005e328d89")
 		(property "Sheetname" "RTC , Wakeup, FAN"
 			(at 81.28 103.5045 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1652,6 +1856,8 @@
 		)
 		(property "Sheetfile" "RTC.kicad_sch"
 			(at 81.28 124.9685 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1740,11 +1946,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "2a110465-dd07-4872-9dc5-b05104e43751")
 		(property "Sheetname" "Hardware"
 			(at 218.44 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1754,6 +1962,8 @@
 		)
 		(property "Sheetfile" "hardware.kicad_sch"
 			(at 218.44 107.8996 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,11 +1992,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "91f4929a-90ac-4a8c-bed5-4fbe550d9aeb")
 		(property "Sheetname" "Power Filtering"
 			(at 218.44 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,6 +2008,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 218.44 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

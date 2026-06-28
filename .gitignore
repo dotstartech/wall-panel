@@ -25,3 +25,6 @@ fp-lib-table.bak
 # KiCad output directories
 **/gerber/
 **/production/
+
+# VS Code Local History extension
+.history/

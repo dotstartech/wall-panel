@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TS3USB221RSER
+D High-Speed USB 2.0 (480 Mbps) 1:2 Multiplexer/Demultiplexer Switch With Single Enable
+K
+F http://www.ti.com/lit/gpn/ts3usb221
+$ENDCMP
+#
+#End Doc Library
