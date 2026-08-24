@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM3630ATMX
+D LM3630A High-Efficiency Dual-String White LED Driver
+K
+F http://www.ti.com/lit/gpn/LM3630A
+$ENDCMP
+#
+#End Doc Library

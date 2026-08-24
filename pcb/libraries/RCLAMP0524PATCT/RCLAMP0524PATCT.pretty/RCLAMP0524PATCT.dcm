@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RCLAMP0524PATCT
+D SEMTECH - RCLAMP0524PATCT - TVS ARRAY, 150W, 5V, UNIDIRECTIONAL, SLP2510P8
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842019.pdf
+$ENDCMP
+#
+#End Doc Library
