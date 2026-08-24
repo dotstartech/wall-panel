@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "PN7160A1HN_C100E") (type "KiCad") (uri "/Users/brushknight/dev/brushknight/wall-panel/pcb/libraries/PN7160A1HN_C100E/PN7160A1HN_C100E.pretty/PN7160A1HN_C100E.kicad_sym") (options "") (descr ""))
+	(lib (name "brushknight") (type "KiCad") (uri "/Users/brushknight/dev/brushknight/devboards/pcb/lib/brushknight/brushknight.kicad_sym") (options "") (descr ""))
+)
