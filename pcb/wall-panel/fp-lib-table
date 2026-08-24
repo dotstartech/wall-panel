@@ -13,4 +13,6 @@
 	(lib (name "pogo") (type "KiCad") (uri "${KIPRJMOD}/../libraries/Pogo/pogo.pretty") (options "") (descr ""))
 	(lib (name "218-2LPSTRF") (type "KiCad") (uri "${KIPRJMOD}/../libraries/218-2LPSTRF/218-2LPSTRF.pretty") (options "") (descr ""))
 	(lib (name "TS3USB221RSER") (type "KiCad") (uri "${KIPRJMOD}/../libraries/TS3USB221RSER/TS3USB221RSER.pretty") (options "") (descr ""))
+	(lib (name "LM3630ATMX") (type "KiCad") (uri "/Users/brushknight/dev/brushknight/wall-panel/pcb/libraries/LM3630ATMX/LM3630ATMX.pretty") (options "") (descr ""))
+	(lib (name "CKST0603") (type "KiCad") (uri "/Users/brushknight/dev/brushknight/wall-panel/pcb/libraries/CKST0603/CKST0603.pretty") (options "") (descr ""))
 )

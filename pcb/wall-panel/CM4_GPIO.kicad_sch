@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Wall Panel")
-		(date "2026-02-25")
-		(rev "v0.3.1")
+		(date "2026-08-24")
+		(rev "5")
 		(company "dotstar.tech")
 		(comment 1 "designed by Grigorii Merkushev (aka brushknight)")
 		(comment 2 "brushknight.com")
@@ -9900,7 +9900,7 @@
 	)
 	(polyline
 		(pts
-			(xy 257.81 130.175) (xy 257.81 168.91)
+			(xy 257.81 130.175) (xy 257.81 239.395)
 		)
 		(stroke
 			(width 0)
@@ -10660,7 +10660,7 @@
 	)
 	(polyline
 		(pts
-			(xy 352.425 130.175) (xy 352.425 168.91)
+			(xy 352.425 130.175) (xy 352.425 239.395)
 		)
 		(stroke
 			(width 0)
@@ -12168,6 +12168,16 @@
 		)
 		(uuid "09790b10-4f2d-4513-865b-21564ce13aed")
 	)
+	(label "GPIO27"
+		(at 88.9 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e26cddc-9656-447e-b872-b1b6a8e9d1df")
+	)
 	(label "GPIO23"
 		(at 124.46 93.98 180)
 		(effects
@@ -12338,16 +12348,6 @@
 		)
 		(uuid "26cd24ad-dc7e-4f22-8cf0-d09179b0d265")
 	)
-	(label "GPIO21"
-		(at 88.9 241.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "28e99f12-f44d-41e1-997d-30a67c69bca9")
-	)
 	(label "SD_DAT0"
 		(at 125.73 114.3 180)
 		(effects
@@ -12477,6 +12477,16 @@
 			(justify right bottom)
 		)
 		(uuid "3f2f1aeb-24f2-4597-bbb9-54b12c752d6f")
+	)
+	(label "GPIO27"
+		(at 88.9 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fa8aa0a-e457-4b3b-9f24-39e36e7eaef1")
 	)
 	(label "GPIO5"
 		(at 195.58 114.3 180)
@@ -12918,16 +12928,6 @@
 		)
 		(uuid "a382881d-447e-4c02-8a48-4f80e0b390fe")
 	)
-	(label "GPIO21"
-		(at 88.9 259.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a63f63d5-3a22-4051-b568-c3b56126241a")
-	)
 	(label "GPIO27"
 		(at 196.85 93.98 180)
 		(effects
@@ -13179,12 +13179,12 @@
 		(uuid "d854e56c-a962-466d-bce7-bfb3c9c54498")
 	)
 	(label "EEPROM_nWP"
-		(at 321.31 179.07 180)
+		(at 288.29 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ddd0dfb0-ab3b-4429-b8c5-6b1a612b9cbe")
 	)
@@ -13392,7 +13392,7 @@
 	)
 	(hierarchical_label "USB_OTG_SWITCH"
 		(shape bidirectional)
-		(at 321.31 181.61 180)
+		(at 321.31 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13467,6 +13467,17 @@
 		)
 		(uuid "2de1f773-546d-4efd-af32-ac21d2c1a62a")
 	)
+	(hierarchical_label "SPI1_MOSI"
+		(shape output)
+		(at 224.79 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30af25ce-6ae5-4425-8a59-de08dc817e63")
+	)
 	(hierarchical_label "HD3_P"
 		(shape input)
 		(at 318.77 194.31 180)
@@ -13489,6 +13500,28 @@
 		)
 		(uuid "3affcc57-3245-4908-9583-f23deeb6fa4e")
 	)
+	(hierarchical_label "SPI1_SCLK"
+		(shape output)
+		(at 224.79 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ea1c4a3-5ba7-4b22-bdae-cff96b2a0df3")
+	)
+	(hierarchical_label "OTG_MODE_SW1"
+		(shape input)
+		(at 321.31 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4eb8ebb6-2e37-4184-bf89-31d9196ad11f")
+	)
 	(hierarchical_label "VBUS"
 		(shape output)
 		(at 318.77 157.48 180)
@@ -13510,6 +13543,28 @@
 			(justify left)
 		)
 		(uuid "51bc86b3-b553-4682-81fa-8ade07ed72d1")
+	)
+	(hierarchical_label "SPI1_CS2"
+		(shape output)
+		(at 189.23 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51d904f1-750c-466e-84ee-9b743d099871")
+	)
+	(hierarchical_label "SPI1_MISO"
+		(shape output)
+		(at 288.29 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "562e8ba4-6808-4ef6-b2f9-6b148d227652")
 	)
 	(hierarchical_label "VBUS"
 		(shape output)
@@ -13576,6 +13631,17 @@
 			(justify right)
 		)
 		(uuid "67064f8d-9a19-40cd-bf3b-5a8730c4f03d")
+	)
+	(hierarchical_label "SPI1_CS1"
+		(shape output)
+		(at 224.79 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67c32715-1735-4a6f-8053-06f34250d2d2")
 	)
 	(hierarchical_label "SDA4"
 		(shape output)
@@ -13676,6 +13742,17 @@
 		)
 		(uuid "96ff8a3b-c6e3-4e75-99f1-57470b126e51")
 	)
+	(hierarchical_label "SPI1_MOSI"
+		(shape output)
+		(at 288.29 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98b1c534-751e-4100-9156-5f04685d46f2")
+	)
 	(hierarchical_label "SCL1"
 		(shape output)
 		(at 205.74 49.53 270)
@@ -13697,6 +13774,28 @@
 			(justify left)
 		)
 		(uuid "9f75a60b-c7a1-47fd-ba1f-2ad6eefd58a8")
+	)
+	(hierarchical_label "SPI1_CS1"
+		(shape output)
+		(at 288.29 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab554498-e614-4470-b792-e0ffcbb69b33")
+	)
+	(hierarchical_label "SPI1_CS2"
+		(shape output)
+		(at 321.31 207.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae8b067f-e030-40c4-aa8b-274c99e3a886")
 	)
 	(hierarchical_label "UART_RX"
 		(shape output)
@@ -13742,6 +13841,17 @@
 		)
 		(uuid "c47a2856-d731-4208-9567-a11a001285f5")
 	)
+	(hierarchical_label "SPI1_SCLK"
+		(shape output)
+		(at 288.29 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c65611b1-97e0-4a8f-8ae7-1de7db7586e5")
+	)
 	(hierarchical_label "SCL1"
 		(shape output)
 		(at 290.83 189.23 0)
@@ -13752,6 +13862,17 @@
 			(justify left)
 		)
 		(uuid "c8c38315-2e24-4afc-8888-8109c4d89872")
+	)
+	(hierarchical_label "SPI1_CS3"
+		(shape output)
+		(at 321.31 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca379904-c2b5-4f98-90cb-87ce195effa4")
 	)
 	(hierarchical_label "OTG_MODE_SW1"
 		(shape input)
@@ -13785,6 +13906,17 @@
 			(justify right)
 		)
 		(uuid "cfc9ead9-0479-4361-bba7-32daf49d7278")
+	)
+	(hierarchical_label "SPI1_CS3"
+		(shape output)
+		(at 224.79 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d16c3540-5286-4170-9a02-795530e02a68")
 	)
 	(hierarchical_label "ID_SD"
 		(shape output)
@@ -13873,6 +14005,17 @@
 			(justify left)
 		)
 		(uuid "e8c88107-4c00-44bc-b07f-5c8bcb21af78")
+	)
+	(hierarchical_label "SPI1_MISO"
+		(shape output)
+		(at 189.23 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea935881-7dc2-4018-a6dd-a26488db9a7d")
 	)
 	(hierarchical_label "nEXTRST"
 		(shape output)

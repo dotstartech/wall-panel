@@ -9,4 +9,5 @@
 	(lib (name "OC7140") (type "KiCad") (uri "${KIPRJMOD}/../libraries/OC7140/OC7140.pretty/OC7140.kicad_sym") (options "") (descr ""))
 	(lib (name "218-2LPSTRF") (type "KiCad") (uri "${KIPRJMOD}/../libraries/218-2LPSTRF/218-2LPSTRF.pretty/218-2LPSTRF.kicad_sym") (options "") (descr ""))
 	(lib (name "TS3USB221RSER") (type "KiCad") (uri "${KIPRJMOD}/../libraries/TS3USB221RSER/TS3USB221RSER.pretty/TS3USB221RSER.kicad_sym") (options "") (descr ""))
+	(lib (name "LM3630ATMX") (type "KiCad") (uri "/Users/brushknight/dev/brushknight/wall-panel/pcb/libraries/LM3630ATMX/LM3630ATMX.pretty/LM3630ATMX.kicad_sym") (options "") (descr ""))
 )

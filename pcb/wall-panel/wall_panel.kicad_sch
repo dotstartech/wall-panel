@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Wall Panel")
-		(date "2026-02-25")
-		(rev "v0.3.1")
+		(date "2026-08-24")
+		(rev "5")
 		(company "dotstar.tech")
 		(comment 1 "designed by Grigorii Merkushev (aka brushknight)")
 		(comment 2 "brushknight.com")
