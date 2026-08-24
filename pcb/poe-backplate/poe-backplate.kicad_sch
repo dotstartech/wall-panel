@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "2ade45ab-4dd8-49f8-83c6-d4bf780bc751")
 	(paper "A3")
 	(title_block
 		(title "PoE Backplate")
-		(date "2026-02-01")
-		(rev "v0.2")
+		(date "2026-08-05")
+		(rev "4")
 		(company "dotstar.tech")
 		(comment 1 "designed byGrigorii Merkushev (aka brushknight)")
 		(comment 2 "brushknight.com")
@@ -186,11 +186,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "847a6f3a-a079-4ba5-8b6e-89592cee816d")
 		(property "Sheetname" "PoE"
 			(at 114.3 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,6 +202,8 @@
 		)
 		(property "Sheetfile" "poe.kicad_sch"
 			(at 114.3 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -308,11 +312,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "9b59b4b7-3350-4770-b973-cb3c36e5ed35")
 		(property "Sheetname" "USB to Ethernet"
 			(at 63.5 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -322,6 +328,8 @@
 		)
 		(property "Sheetfile" "usb_to_ethernet.kicad_sch"
 			(at 63.5 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
